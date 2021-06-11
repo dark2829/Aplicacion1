@@ -47,6 +47,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Toast.makeText(this, "OnDestroy", Toast.LENGTH_SHORT).show();
-        // La actividad se ha cerrado
+        // La actividad se ha cerrado abcd
     }
 }
