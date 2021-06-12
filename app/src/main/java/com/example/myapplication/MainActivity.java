@@ -10,18 +10,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        int mate = 5 , esp = 5 , ing = 5;
-        float prom = 0;
-
-        prom = (mate + esp + ing ) / 3;
-
-        if (prom >= 6 ){
-            Toast.makeText(this, "Aprobado", Toast.LENGTH_SHORT).show();
-        }else{
-            Toast.makeText(this, "Reprobado", Toast.LENGTH_SHORT).show();
-        }
-
         //Toast.makeText(this, "Creado", Toast.LENGTH_SHORT).show();
         // La actividad ha sido creada.
     }
